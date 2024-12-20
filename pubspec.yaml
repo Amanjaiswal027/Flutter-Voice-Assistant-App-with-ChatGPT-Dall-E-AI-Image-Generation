@@ -1,0 +1,50 @@
+name: currency_converter
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS styling
+  cupertino_icons: ^1.0.2
+
+  # HTTP package for making HTTP requests
+  http: ^1.2.2
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.0
+  flutter_dotenv: ^5.2.1
+
+  # Speech-to-text package for voice input
+  #speech_to_text: ^5.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Flutter lints for code quality
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adding assets
+  assets:
+    - assets/
+
+  # Adding custom fonts
+  fonts:
+    - family: cera pro
+      fonts:
+        - asset: assets/Cera-Pro-Bold.otf
+        - asset: assets/Cera-Pro-Medium.otf
+          style: italic
